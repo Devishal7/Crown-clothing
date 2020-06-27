@@ -3,15 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-  apiKey: "AIzaSyBZXxNzZQs2-fdhyxdy-RdZIaIs0WOQn1A",
-  authDomain: "crown-clothing-2df31.firebaseapp.com",
-  databaseURL: "https://crown-clothing-2df31.firebaseio.com",
-  projectId: "crown-clothing-2df31",
-  storageBucket: "",
-  messagingSenderId: "312524033914",
-  appId: "1:312524033914:web:c13fbeb920a7c8d1"
-};
-
+    apiKey: "AIzaSyBZXxNzZQs2-fdhyxdy-RdZIaIs0WOQn1A",
+    authDomain: "crown-clothing-2df31.firebaseapp.com",
+    databaseURL: "https://crown-clothing-2df31.firebaseio.com",
+    projectId: "crown-clothing-2df31",
+    storageBucket: "crown-clothing-2df31.appspot.com",
+    messagingSenderId: "312524033914",
+    appId: "1:312524033914:web:c13fbeb920a7c8d1"
+  };
 firebase.initializeApp(config);
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
